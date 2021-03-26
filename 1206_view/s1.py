@@ -1,9 +1,6 @@
 import sys
 sys.stdin = open("input.txt", "r")
 
-for T in range(1, 11):
-
-
 T1 = int(input())
 cng1 = list(map(int, input().split()))
 T2 = int(input())
