@@ -31,7 +31,6 @@ def go(index):
     result.append(data[index])
     go(index + 1)
     result.pop()
-
     go(index + 1)
 
 data = [i for i in range(1, 4)]

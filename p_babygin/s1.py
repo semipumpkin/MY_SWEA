@@ -24,9 +24,11 @@ def is_babygin(nums):
             cnt_list[i+2] -= 1
 
     return count
+
 T = int(input())
 for tc in range(1, T+1):
     nums = list(map(int,input()))
+    # print(nums)
     print(is_babygin(nums))
 
 
